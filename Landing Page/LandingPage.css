@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    color: hsl(192, 100%, 9%);
+    font-family: Poppins;
+}
+a, button{
+    text-decoration: none;
+    border: none;
+    color: hsl(192, 100%, 9%);
+    
+}
+main{
+    padding: 10px 50px;
+}
+h1{
+    font-size: 40px;
+}
+h3, h2{
+    font-size: 30px;
+}
+header{
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/catoon1-removebg-preview.png);
+    background-size: cover;
+    background-blend-mode:lighten;
+    padding: 50px 100px;
+}
+div.Logo, .headerBottom{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo button{
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 50px;  
+}
+
+div.Huddle, .Build, .desktopPhone, .empty, .Leftside{
+    width: 50%;
+}
+.Build p{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.Build button, .Build button a, .Build button a:hover{
+    padding: 15px 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    color: hsl(210, 25%, 97%);
+}
+section{
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    border: 3px solid rgb(246, 243, 243);
+    border-radius: 20px;
+    margin: 30px 80px;
+    background-color: hsl(210, 90%, 110%);
+    align-items: center;
+}
+.firstSection{
+    margin-top: 120px;
+}
+.Leftside{    
+    padding-right: 100px;
+    
+}
+.alone{
+    padding: 0 20px 100px 0;
+}   
+p{
+    color: hsl(208, 11%, 55%);
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.shortSection{
+    padding: 50px 50px 0;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+.shortSection button{
+    padding: 20px 100px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    margin: 30px 0;
+}
+.shortSection button a{
+    color: hsl(210, 25%, 97%);   
+}
+footer{    
+    padding: 150px 100px 50px;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+}
+footer a{
+    font-weight: 800;
+    color: hsl(208, 11%, 55%);
+    display: block;
+    padding: 10px 0;
+    
+}
+.footerTop p{
+    font-size: 11px;
+    font-weight: 500;
+}
+.footerTop{
+    display: flex;   
+}
+.address, .About_Us, .Career, .Icons{
+    width: 25%;
+}
+.address{
+    width: 30%;
+}
+.About_Us, .Career, .Icons{
+    padding-top: 50px;
+}
+.About_Us{
+    padding-left: 100px;
+}
+footer.Huddle{
+    color: hsl(210, 25%, 97%);
+}
+i{
+font-size: 28px;
+padding: 0 5px;
+}
+footer.Huddle, .Icons, div.call, div.HuddleBottom{
+    display: flex;
+}
+div.call i{
+    font-size: 16px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+div.HuddleBottom i{
+    padding-top: 20px;
+}
+.HuddleBottom h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.copyright{
+    text-align: right;
+    font-size: 12px;
+}
+@media(max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        padding: 0;
+    }
+    h1{
+        padding: 20px 0 0px;
+        font-size: 24px;
+    }
+    h3, h2{
+        font-size: 25px;
+    }
+    body{
+        max-width: 100%;
+    }
+    header{
+        padding: 0;
+        max-width: 100%;
+        margin: 0;
+    }
+    div.Logo{
+        padding: 30px ;
+        
+    }
+    .Logo button{
+        padding: 10px 30px;
+    }
+    .headerBottom{
+        display: block;
+        padding:0 30px;
+        margin: 0;
+        max-width: 100%;
+    }
+    .desktopPhone img{
+        width: 50%;
+    }
+    img{
+        width: 70%;
+    }
+    .Build, .desktopPhone, .empty, .Leftside{
+        width: 100%;
+    }
+    .Build p{
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    section{
+        display: block;
+        padding: 30px 40px;
+        margin: 20px 50px;
+    }
+    .firstSection{
+        margin-top: 50px;
+    }
+    .alone{
+        padding: 0 20px;
+    }   
+    .shortSection{
+        padding: 20px 20px 0;
+        position: relative;
+        top: 50px;
+        width: 70%;
+    }
+    .shortSection button{
+        padding: 15px 40px;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 50px;
+        margin: 20px 0;
+    }
+    footer{    
+        padding: 100px 50px;
+    }
+    .footerTop{
+        display: block; 
+    }
+    .address, .About_Us, .Career, .Icons{
+        width: 100%;
+    }
+    .About_Us, .Career, .Icons{
+        padding-top: 20px;
+    }
+    .About_Us{
+        padding-left: 0;
+    }
+.copyright{
+    text-align: center;
+    padding-top: 15px;
+}
+}

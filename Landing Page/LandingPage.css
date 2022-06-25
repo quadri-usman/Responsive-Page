@@ -51,7 +51,7 @@ div.Huddle, .Build, .desktopPhone, .empty, .Leftside{
     font-size: 16px;
     padding-bottom: 30px;
 }
-.Build button, .Build button a, .Build button a:hover{
+.Build button, .Build button a{
     padding: 15px 30px;
     background-color: hsl(322, 100%, 66%);
     border-radius: 50px;
@@ -61,6 +61,14 @@ div.Huddle, .Build, .desktopPhone, .empty, .Leftside{
     -webkit-transition: all 0.3s;
     outline: none;
 }
+.Build button a:hover, .shortSection button:hover{
+    color: white;
+    background-color: hsl(322, 100%, 45%);
+    transition: 0.3s; 
+   -moz-transition: 0.2s;
+   -webkit-transition: 0.2s;
+   opacity: 1.0;
+}    
 section{
     display: flex;
     padding: 50px 80px;
@@ -99,10 +107,7 @@ p{
 .shortSection button{
     padding: 20px 100px;
     background-color: hsl(322, 100%, 66%);
-    border-radius: 50px;
-    margin: 30px 0;transition: all 0.8s; 
-    -moz-transition: background 0.3s;
-    -webkit-transition: all 0.3s;
+    border-radius: 50px;  
     outline: none;
 }
 .shortSection button a{

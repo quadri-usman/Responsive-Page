@@ -151,8 +151,12 @@ i{
 font-size: 28px;
 padding: 0 5px;
 }
+.Icons i{
+    color: white;
+}
 footer.Huddle, .Icons, div.call, div.HuddleBottom{
     display: flex;
+    color: white;
 }
 div.call i{
     font-size: 16px;
